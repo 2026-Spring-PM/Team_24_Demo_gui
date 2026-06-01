@@ -14,6 +14,14 @@ xhost + localhost
 
 ## 실행 방법
 
+저장소를 clone한 뒤, 해당 폴더 안에서 실행합니다.
+
+```bash
+git clone https://github.com/2026-Spring-PM/Team_24_Demo_gui.git
+cd Team_24_Demo_gui
+```
+
+
 Docker 이미지를 먼저 pull 합니다.
 
 ```bash
