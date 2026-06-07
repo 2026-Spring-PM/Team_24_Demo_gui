@@ -1,0 +1,6 @@
+* text=auto eol=lf
+
+*.sh text eol=lf
+main text eol=lf
+Dockerfile text eol=lf
+README.md text eol=lf
