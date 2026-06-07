@@ -21,16 +21,10 @@ git clone https://github.com/2026-Spring-PM/Team_24_Demo_gui.git
 cd Team_24_Demo_gui
 ```
 
-
 Docker 이미지를 먼저 pull 합니다.
 
 ```bash
 docker pull --platform linux/amd64 hyorilee33/team_24_project:0.1.0
-```
-
-실행 권한을 local하게 부여합니다.
-```bash
-chmod +x main
 ```
 
 그 다음 데모를 실행합니다.
