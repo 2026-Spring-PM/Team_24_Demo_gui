@@ -4,6 +4,7 @@ set -euo pipefail
 IMAGE_NAME="${IMAGE_NAME:-hyorilee33/team_24_project:0.1.0}"
 ROOT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
 
+
 docker pull --platform linux/amd64 "$IMAGE_NAME"
 
 case "$(uname -s)" in
